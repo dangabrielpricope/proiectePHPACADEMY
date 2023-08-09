@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <style>
+         .navigatie {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(../assets/img/sky.png);
+    background-size: 2000px ;
+    padding: 50px;
+}
+.pages{
+    font-weight: bold;
+    color: black;
+    background-color: #fff;
+    height: 40px;
+    width: 100px;
+    border-radius: 40px;
+    text-align: center;
+
+}
+.navigatie{
+    display: flex;
+    gap: 10px 20px;
+    flex-direction: column; 
+    border-radius: 30px;
+}
+body{
+    background-color: skyblue;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <div class="navigatie">
+
+            <div class="pages page1">
+                <a href="../index.html">Pagina principala</a>
+            </div>
+            <div class="pages page2">
+                <a href="../pages/contact.html">Contact</a>
+            </div>
+            <div class="pages page3">
+                <a href="../pages/register.html">Register</a>
+            </div>
+            <div class="pages page4">
+                <a href="../pages/blog.html">Blog</a>
+            </div>
+
+        </div>
+    </header>
+    <hr>
+    <h1>Login</h1>
+    <section>
+        <label for="Email">Introduceti adresa de email</label>
+        <br>
+        <input type="text" name="Email" placeholder="Introduceti email">
+        <br>
+        <label for="Password">Parola</label>
+        <br>
+        <input type="password" placeholder="Introduceti Parola">
+        <br>
+        <input type="submit" value="Login">
+    </section>
+
+</body>
+
+</html>

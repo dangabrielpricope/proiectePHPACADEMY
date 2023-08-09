@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <style>
+        .navigatie {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(../assets/img/sky.png);
+    background-size: 2000px ;
+    padding: 50px;
+}
+.pages{
+    font-weight: bold;
+    color: black;
+    background-color: #fff;
+    height: 40px;
+    width: 100px;
+    border-radius: 40px;
+    text-align: center;
+
+}
+.navigatie{
+    display: flex;
+    gap: 10px 20px;
+    flex-direction: column; 
+    border-radius: 30px;
+}
+body{
+    background-color: skyblue;
+}
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="navigatie">
+
+            <div class="pages page1">
+                <a href="../index.html">Pagina principala</a>
+            </div>
+            <div class="pages page2">
+                <a href="../pages/register.html">Register</a>
+            </div>
+            <div class="pages page3">
+                <a href="../pages/login.html">Login</a>
+            </div>
+            <div class="pages page4">
+                <a href="../pages/blog.html">Blog</a>
+            </div>
+
+        </div>
+    </header>
+    <hr>
+    <h1>Contact</h1>
+    <section>
+        <form action="">
+            <label for="Text">Text</label> <input type="text"> <br>
+            <br>
+            <label for="email">Email</label> <input type="text" name="Email" id="Email"
+                placeholder="Introduceti email"><br>
+            <br>
+            <textarea name="Mesaj" id="Mesaj" cols="30" rows="10" placeholder="Introduceti mesajul"></textarea> <br>
+            <input type="submit" value="Trimite mesajul">
+        </form>
+    </section>
+    <br>
+    <footer>
+        <b>Copyright &copy; 2023-2024 phpacademy-<i>DanGabrielPricope</i></b>
+    </footer>
+</body>
+
+</html>

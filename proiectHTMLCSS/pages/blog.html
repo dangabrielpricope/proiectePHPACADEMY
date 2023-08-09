@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BLOG</title>
+    <style>
+        .navigatie {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(../assets/img/sky.png);
+    background-size: 2000px ;
+    padding: 50px;
+}
+.pages{
+    font-weight: bold;
+    color: black;
+    background-color: #fff;
+    height: 40px;
+    width: 100px;
+    border-radius: 40px;
+    text-align: center;
+
+}
+.navigatie{
+    display: flex;
+    gap: 10px 20px;
+    flex-direction: column; 
+    border-radius: 30px;
+}
+body{
+    background-color: skyblue;
+}
+.tabel{
+    background-color: azure;
+}
+.week{
+    background-color: blueviolet;
+    text-align: center;
+   
+}
+h1{
+    text-align: center;
+    text-decoration: double;
+    text-decoration: underline;
+    
+}
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <div class="navigatie">
+            <div class="pages page1">
+                <a href="../index.html">Pagina principala</a>
+            </div>
+            <div class="pages page2">
+                <a href="../pages/contact.html">Contact</a>
+            </div>
+            <div class="pages page3">
+                <a href="../pages/register.html">Register</a>
+            </div>
+            <div class="pages page4">
+                <a href="../pages/login.html">Login</a>
+            </div>
+
+        </div>
+    </header>
+    <hr>
+    <h1>Despre mine</h1>
+    <section>
+        <article>
+            <p>Nu stiu ce sa spun despre mine. Cred ca cel mai bine ma poate caracteriza a mea sotie care ma stie
+                cel mai bine. <br>Stiu doar ca imi plac provocarile, de aceea lucrez intr-un departament de cercetare
+                unde <br>mintea iti este antrenata in mod continuu si fiecare zi e o noua provocare.</p>
+        </article>
+        <table class="tabel" border="1">
+            <tr class="week">
+                <th>LUNI</th>
+                <th>MARTI</th>
+                <th>MIERCURI</th>
+                <th>JOI</th>
+                <th>VINERI</th>
+                <th>SAMBATA</th>
+                <th>DUMINICA</th>
+            </tr>
+            <tr>
+                <td colspan="5">Merg la servici <br>iar dupa amiaza ma joc cu copiii + curs php</td>
+                <td>Activitati familiale + studiu</td>
+                <td>Relaxare, plimbare cu motorul, <br>joaca cu copiii si inca putin studiu</td>
+            </tr>
+        </table>
+        <br>
+        <img src="../assets/img/Family.png" alt="imgFamily" title="Family" width="400" height="400">
+        <img src="../assets/img/motor.png" alt="imgMotor" title="Motor" width="400">
+        <img src="../assets/img/php.png"  alt="imgPHP" title="PHP" width="400" height="400">
+    </section>
+</body>
+
+</html>
