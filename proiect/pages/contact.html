@@ -3,34 +3,149 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Contact</title>
+    <title>Service auto DGP</title>
+    <style>
+        .navigatie {
+            font-family: 'Times New Roman', Times, serif;
+            background-image: url('../assets/img/top.png');
+            background-size: cover;
+            padding: 50px;
+        }
+
+        .pages {
+            font-weight: bold;
+            color: black;
+            background-color: #fff;
+            height: 30px;
+            width: 130px;
+            border-radius: 40px;
+            text-align: center;
+            margin-top: 50px;
+
+        }
+
+        .navigatie {
+            display: flex;
+            gap: 10px 20px;
+            flex-direction: row;
+            border-radius: 30px;
+        }
+
+        body {
+            background-color: lightgray;
+        }
+
+        .imgnav {
+            float: right;
+            margin-left: 800px;
+            margin-top: 8%;
+        }
+
+        .numeservice {
+            text-align: center;
+            background-color: #6c757d;
+            border-radius: 30px;
+            height: 50px;
+        }
+
+        h1 {
+            margin-left: 10%;
+            text-decoration: underline;
+        }
+
+        .contactsection {
+            position: relative;
+            margin-left: 8%;
+            float: left;
+        }
+
+        input[type="text"] {
+            width: 180px;
+            height: 25px;
+        }
+
+        input[type="email"] {
+            width: 180px;
+            height: 25px;
+        }
+
+        textarea {
+            width: 400px;
+            height: 200px;
+
+        }
+
+        input[type="submit"] {
+            width: 130px;
+            height: 30px;
+        }
+        .pozaechipa{
+            float: right;
+           margin-right: 4%;
+           margin-top: 5%;
+        }
+        h3{
+            text-align: center;
+        }
+        footer{
+            float: inline-end;
+            float: left;
+            margin-top: 15%;
+            
+        }
+    </style>
 </head>
 
 <body>
 
     <header>
+        <div class="numeservice">
+            <h2>Service auto DGP</h2>
+        </div>
+        <div class="navigatie">
 
-        <nav>
-            <li><a href="../index.html">Pagina principala</a></li>
-            <li><a href="../pages/register.html">Register</a></li>
-            <li><a href="../pages/login.html">Login</a></li>
-            <li><a href="../pages/blog.html">Blog</a></li>
-        </nav>
+            <div class="pages page1">
+                <a href="../index.html">Home</a>
+            </div>
+            <div class="pages page2">
+                <a href="../pages/programare.html">Programare</a>
+            </div>
+            <div class="pages page3">
+                <a href="../pages/masini.html">Masini second</a>
+            </div>
+            <div class="pages page4">
+                <a href="../pages/contact.html">Contact</a>
+            </div>
+            <div class="imgnav">
+                <img src="../assets/img/poza2.jpg" alt="masina" title="masina" width="150">
+            </div>
+
+
+
+        </div>
     </header>
     <hr>
     <h1>Contact</h1>
-    <section>
-        <form action="">
-            <label for="Text">Text</label> <input type="text"> <br>
-            <br>
-            <label for="email">Email</label> <input type="text" name="Email" id="Email"
-                placeholder="Introduceti email"><br>
-            <br>
-            <textarea name="Mesaj" id="Mesaj" cols="30" rows="10" placeholder="Introduceti mesajul"></textarea> <br>
-            <input type="submit" value="Trimite mesajul">
-        </form>
-    </section>
-    <br>
+    <div class="contactsection">
+        <section>
+            <form action="">
+                <label for="Text">Nume, Prenume</label> <br><br>
+                <input type="text" name="NP" id="NP" placeholder="Introduceti nume, prenume"> <br>
+                <br>
+                <label for="email">Email</label><br><br>
+                <input type="email" name="Email" id="Email" placeholder="Introduceti email"><br>
+                <br>
+                <textarea name="Mesaj" id="Mesaj" cols="30" rows="10" placeholder="Introduceti mesajul"></textarea>
+                <br><br>
+                <input type="submit" value="Trimite mesajul">
+            </form>
+        </section>
+    </div>
+    <div class="pozaechipa">
+        <h3>Echipa noastra</h3>
+         <img src="../assets/img/echipa.png" alt="echipa" width="700">
+    </div>
+    <br> <br>
     <footer>
         <b>Copyright &copy; 2023-2024 phpacademy-<i>DanGabrielPricope</i></b>
     </footer>
